@@ -565,3 +565,51 @@ html {
 .pagination-info {
   @apply text-sm text-(--text-secondary) text-center mb-2;
 }
+/* Back-top 组件样式 */
+.vh-back-top {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  width: 44px;
+  height: 44px;
+  cursor: pointer;
+  z-index: 9999;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s, visibility 0.3s;
+}
+.vh-back-top.show {
+  opacity: 1;
+  visibility: visible;
+}
+.vh-back-top svg:first-child {
+  position: absolute;
+  width: 44px;
+  height: 44px;
+}
+.vh-back-top .icon {
+  width: 24px;
+  height: 24px;
+}
+.vh-back-top circle {
+  stroke-dasharray: 62.8319;
+  stroke-dashoffset: 62.8319;
+  transition: stroke-dashoffset 0.3s ease;
+}
+.vh-back-top circle.show {
+  stroke-dashoffset: 0;
+}
+
+/* 气泡效果 canvas 样式 */
+.vh-aside-canvas {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+  z-index: 0;
+}
