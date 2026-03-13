@@ -13,7 +13,7 @@ export const siteConfig: SiteConfig = {
   subtitle: "时光流转，我在向前.",
 
   // 站点 URL
-  site_url: "https://blog.itmirror.top",
+  site_url: "https://neon1204.github.io/Xiang-N",
 
   // 站点描述
   description:
