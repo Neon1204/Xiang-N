@@ -1,1 +1,90 @@
-<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Rainni</title><description>不曾与你分享的时间, 我在进步.</description><link>https://rainni.github.io/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.7.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月11日 18:03:24</lastBuildDate><item><title>你好，世界</title><link>https://rainni.github.io/posts/hello-world/</link><guid isPermaLink="true">https://rainni.github.io/posts/hello-world/</guid><description>这是我的第一篇博客文章</description><pubDate>Sat, 10 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;你好，世界&lt;a href=&quot;#你好世界&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;这是我的第一篇博客文章。欢迎来到我的博客！后续我会在这里分享我的学习笔记、技术文章和生活感悟。&lt;/p&gt;&lt;p&gt;基于前端，不止前端——这是我的博客主题。&lt;/p&gt;&lt;p&gt;感谢你的访问！&lt;/p&gt;&lt;/section&gt;</content:encoded></item></channel></rss>
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>XiangN.的博客站</title><description>时光流转，我在向前.</description><link>https://neon1204.github.io/Xiang-N/</link><templateTheme>Firefly</templateTheme><templateThemeVersion>6.7.10</templateThemeVersion><templateThemeUrl>https://github.com/CuteLeaf/Firefly</templateThemeUrl><lastBuildDate>2026年3月13日 14:17:11</lastBuildDate><item><title>我的技术栈与工具</title><link>https://neon1204.github.io/posts/tech-stack/</link><guid isPermaLink="true">https://neon1204.github.io/posts/tech-stack/</guid><description>日常使用的技术工具总结</description><pubDate>Fri, 02 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;我的技术栈与工具&lt;a href=&quot;#我的技术栈与工具&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;section&gt;&lt;h2&gt;日常使用&lt;a href=&quot;#日常使用&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;分类&lt;/th&gt;&lt;th&gt;工具/技术&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;前端框架&lt;/td&gt;&lt;td&gt;Vue3, React&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;语言&lt;/td&gt;&lt;td&gt;TypeScript, JavaScript&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;样式&lt;/td&gt;&lt;td&gt;Tailwind CSS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;包管理&lt;/td&gt;&lt;td&gt;Pnpm&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;构建工具&lt;/td&gt;&lt;td&gt;Rspack, Vite, Webpack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;后端&lt;/td&gt;&lt;td&gt;Node.js, Nest.js&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;容器&lt;/td&gt;&lt;td&gt;Docker&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;开发工具&lt;a href=&quot;#开发工具&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;IDE&lt;/strong&gt;: VS Code&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;终端&lt;/strong&gt;: iTerm2 + Oh My Zsh&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Git&lt;/strong&gt;: GitHub Actions&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;调试&lt;/strong&gt;: Chrome DevTools, Playwright&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;云服务&lt;a href=&quot;#云服务&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;Vercel&lt;/li&gt;
+&lt;li&gt;Cloudflare Workers&lt;/li&gt;
+&lt;li&gt;腾讯云 EdgeOne&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;持续探索&lt;a href=&quot;#持续探索&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;AI Agents&lt;/li&gt;
+&lt;li&gt;Dify&lt;/li&gt;
+&lt;li&gt;RAG&lt;/li&gt;
+&lt;li&gt;Rust&lt;/li&gt;
+&lt;/ul&gt;&lt;hr /&gt;&lt;p&gt;&lt;em&gt;持续更新中…&lt;/em&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item><item><title>欢迎来到我的博客</title><link>https://neon1204.github.io/posts/hello-world/</link><guid isPermaLink="true">https://neon1204.github.io/posts/hello-world/</guid><description>博客开站公告</description><pubDate>Thu, 01 Jan 2026 00:00:00 GMT</pubDate><content:encoded>&lt;section&gt;&lt;h1&gt;欢迎来到我的博客 🎉&lt;a href=&quot;#欢迎来到我的博客-&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h1&gt;&lt;p&gt;这里是 &lt;strong&gt;柯芃丞&lt;/strong&gt; 的技术博客，记录我的学习笔记、技术实践和思考。&lt;/p&gt;&lt;section&gt;&lt;h2&gt;关于这个博客&lt;a href=&quot;#关于这个博客&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;这个博客主要用于分享我在以下领域的心得：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;前端工程化&lt;/li&gt;
+&lt;li&gt;云计算与边缘计算&lt;/li&gt;
+&lt;li&gt;AI 应用开发&lt;/li&gt;
+&lt;li&gt;网络架构优化&lt;/li&gt;
+&lt;/ul&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;技术栈&lt;a href=&quot;#技术栈&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+&lt;table&gt;&lt;thead&gt;&lt;tr&gt;&lt;th&gt;分类&lt;/th&gt;&lt;th&gt;技术&lt;/th&gt;&lt;/tr&gt;&lt;/thead&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td&gt;前端&lt;/td&gt;&lt;td&gt;Vue3, React, TypeScript, Tailwind CSS&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;构建&lt;/td&gt;&lt;td&gt;Vite, Rspack, Webpack&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;后端&lt;/td&gt;&lt;td&gt;Node.js, Nest.js&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;云服务&lt;/td&gt;&lt;td&gt;Cloudflare, Vercel, 腾讯云&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td&gt;DevOps&lt;/td&gt;&lt;td&gt;Docker, GitHub Actions&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;&lt;/section&gt;&lt;section&gt;&lt;h2&gt;期待与你交流&lt;a href=&quot;#期待与你交流&quot;&gt;&lt;span&gt;#&lt;/span&gt;&lt;/a&gt;&lt;/h2&gt;&lt;p&gt;如果你对我的文章有任何问题，欢迎通过以下方式联系我：&lt;/p&gt;&lt;ul&gt;
+&lt;li&gt;邮箱：&lt;a href=&quot;#&quot;&gt;kepengcheng314@163.com&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;GitHub：&lt;a href=&quot;https://github.com/Perfecto23&quot; target=&quot;_blank&quot;&gt;https://github.com/Perfecto23&lt;/a&gt;&lt;/li&gt;
+&lt;li&gt;微信：Perfecto_23&lt;/li&gt;
+&lt;/ul&gt;&lt;p&gt;欢迎交流技术、开源和 AI 相关话题 👋&lt;/p&gt;&lt;hr /&gt;&lt;p&gt;&lt;em&gt;文章更新于 2026年1月&lt;/em&gt;&lt;/p&gt;&lt;/section&gt;&lt;/section&gt;</content:encoded></item></channel></rss>
