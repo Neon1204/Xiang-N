@@ -9,10 +9,10 @@ export const profileConfig: ProfileConfig = {
 	avatar: "assets/images/avatar.avif",
 
 	// 名字
-	name: "Rainni",
+	name: "XiangN.",
 
 	// 个人签名
-	bio: "不曾与你分享的时间, 我在进步.",
+	bio: "时光流转，我在向前。",
 
 	// 链接配置
 	// 已经预装的图标集：fa7-brands，fa7-regular，fa7-solid，material-symbols，simple-icons
@@ -25,6 +25,18 @@ export const profileConfig: ProfileConfig = {
 			name: "GitHub",
 			icon: "fa7-brands:github",
 			url: "https://github.com/Neon1204",
+			showName: false,
+		},
+		{
+			name: "Email",
+			icon: "material-symbols:email",
+			url: "mailto:kepengcheng314@163.com",
+			showName: false,
+		},
+		{
+			name: "微信",
+			icon: "fa7-brands:weixin",
+			url: "https://blog.itmirror.top/about",
 			showName: false,
 		},
 	],

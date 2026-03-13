@@ -1,38 +1,118 @@
-# 关于我 / About Me
+# 关于我
 
-你好！我是 **夏叶** ，一个在数字世界中默默无闻的一片叶子。
+我是向虹霓，一名前端开发工程师，也是一名持续学习中的技术探索者。
 
-## 🛠️ 关于本站
+从事 Web 前端开发五年，主要技术栈为 **Vue 与 React**。在日常工作中，我专注于构建稳定、可维护的前端系统，同时不断思考如何通过工程化与架构设计提升团队开发效率。
 
-这个网站使用 **Astro** 框架构建，采用了 [Firefly](https://github.com/CuteLeaf/Firefly) 模板，Firefly 是基于 [Fuwari](https://github.com/saicaca/fuwari) 的二次开发。
+技术对我而言不仅是一份工作，更是一种长期积累的过程。我习惯记录学习过程、技术实践与问题思考，并将这些内容整理分享在博客中。
 
-**Firefly** 是一款基于 Astro 框架和 Fuwari 模板开发的清新美观且现代化个人博客主题模板，专为技术爱好者和内容创作者设计。该主题融合了现代 Web 技术栈，提供了丰富的功能模块和高度可定制的界面，让您能够轻松打造出专业且美观的个人博客网站。
-
-
-**🖥️在线预览： [Firefly - Demo site](https://firefly.cuteleaf.cn/)**
-
-**🏠我的博客： [https://blog.cuteleaf.cn](https://blog.cuteleaf.cn/)**
-
-**📝Firefly使用文档： [https://docs-firefly.cuteleaf.cn](https://docs-firefly.cuteleaf.cn/)**
-
-**⭐Firefly开源地址：[https://github.com/CuteLeaf/Firefly](https://github.com/CuteLeaf/Firefly)** 
-
-**⭐Fuwari开源地址：[https://github.com/saicaca/fuwari](https://github.com/saicaca/fuwari)**
-
-::github{repo="CuteLeaf/Firefly"}
-
-::github{repo="saicaca/fuwari"}
-
-
-## 📫 联系方式
-
-如果你想和我交流技术问题，分享有趣的想法，或者只是想打个招呼，欢迎通过以下方式联系我：
-
-- 💻 **GitHub**: [CuteLeaf](https://github.com/CuteLeaf)
-- ✉️ **Email**: [xiaye@msn.com](mailto:xiaye@msn.com)
-- 🐧 **QQ交流群：[1087127207](https://qm.qq.com/q/ZGsFa8qX2G)**
+我相信技术成长并不是短期冲刺，而是一种持续迭代的过程—— 
+就像流水不争先，但始终向前。
 
 ---
 
-*感谢你的来访！希望在这里能找到对你有用的内容！*
+## 技术领域
 
+### Web 前端开发
+
+前端开发是我最核心的技术方向。我长期使用 **Vue 与 React** 进行项目开发，并关注现代前端工程体系的演进，例如：
+
+- 前端工程化（Webpack / Vite / 构建优化）
+- 组件化开发与设计模式
+- 性能优化（代码分割、资源加载策略）
+- Web 与移动端融合开发
+
+在项目实践中，我更关注 **代码可维护性与团队协作效率**，包括代码规范、工程结构设计以及开发流程优化。
+
+---
+
+### 工程化与架构
+
+随着项目规模的增长，我逐渐将关注点从"写功能"转向"设计系统"。
+
+我对以下领域保持持续关注：
+
+- 前端工程化体系
+- 构建工具与模块化
+- Monorepo 与项目结构设计
+- 微前端架构探索
+
+好的架构应该能够让系统 **长期稳定演进**，而不是在复杂度增加时逐渐失控。
+
+---
+
+### AI 与开发效率
+
+作为一名开发者，我也持续关注 **AI 对软件开发的影响**。
+
+近年来，我开始探索如何将 AI 能力融入开发流程，例如：
+
+- 利用 AI 辅助代码生成与重构
+- 使用 LLM 提升技术学习效率
+- 探索 AI 在产品中的实际应用
+
+我相信 AI 将成为未来开发者的重要工具，而不是简单的替代者。
+
+---
+
+### iOS 与独立开发探索
+
+除了 Web 技术，我也在学习 **Swift 与 SwiftUI**，尝试构建简单的 iOS 应用。
+
+移动端开发让我从新的角度重新理解软件设计，例如：
+
+- UI 与交互体验
+- 本地应用架构
+- App Store 产品化思维
+
+这些探索也让我逐渐接触 **独立开发与产品设计**。
+
+---
+
+## 技术理念
+
+### 持续学习
+
+技术世界变化很快，保持学习能力比掌握某个具体框架更重要。
+
+### 实践驱动
+
+相比只停留在理论层面，我更喜欢通过实际项目验证技术方案。
+
+### 长期主义
+
+成长并不需要一时领先，而是持续积累。
+
+---
+
+## 技术栈
+
+**日常使用**
+
+Vue / React / TypeScript / JavaScript / HTML / CSS
+
+**工程工具**
+
+Vite / Webpack / Git / Node.js / PNPM
+
+**正在探索**
+
+AI Agents / Python / RAG
+
+---
+
+## 联系方式
+
+const Neon = { 
+  name: "向虹霓", 
+  role: "Frontend Developer", 
+  stack: ["Vue", "React", "TypeScript"], 
+  interests: ["Engineer", "AI", "Indie Hacking"], 
+  github: "https://github.com/Neon1204", 
+ 
+  sayHi() { 
+    console.log("Welcome to my blog 👋"); 
+  } 
+}; 
+
+Neon.sayHi();
