@@ -1313,61 +1313,7 @@ function disableAnimation() {
   }
 </script>
 
-<!-- 气泡效果 -->
-<script is:inline src="/assets/js/vhCaiqi.js"></script>
+<!-- 气泡效果 canvas -->
+<canvas class="vh-paopao" style="top: 0px; z-index: 0; position: absolute; pointer-events: none;"></canvas>
 
-<!-- Back-top 组件 -->
-<section class="vh-back-top">
-  <svg viewBox="0 0 24 24">
-    <defs>
-      <linearGradient id="Gradient" x1="0%" x2="100%" y1="0%" y2="0%">
-        <stop offset="0%" style="stop-color:#ff9671;stop-opacity:1"></stop>
-        <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1"></stop>
-      </linearGradient>
-    </defs>
-    <circle cx="12" cy="12" fill="none" r="10" stroke="url(#Gradient)" stroke-linecap="round" stroke-width="2" transform="rotate(-90, 12, 12)"></circle>
-  </svg>
-  <svg viewBox="0 0 24 24" class="icon">
-    <path d="m6 15l6-6l6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
-  </svg>
-</section>
-
-<script>
-  // Back-top 交互逻辑
-  const backTop = document.querySelector('.vh-back-top');
-  const backTopCircle = backTop?.querySelector('circle');
-  
-  if (backTop) {
-    // 点击返回顶部
-    backTop.addEventListener('click', () => {
-      window.scrollTo({ top: 0, behavior: 'smooth' });
-    });
-    
-    // 滚动显示/隐藏和更新进度
-    const updateBackTop = () => {
-      const scrollTop = window.scrollY;
-      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
-      const progress = docHeight > 0 ? (scrollTop / docHeight) : 0;
-      const strokeDashoffset = 62.8319 * (1 - progress);
-      
-      if (backTopCircle) {
-        if (progress > 0) {
-          backTopCircle.classList.add('show');
-          backTopCircle.style.strokeDashoffset = strokeDashoffset.toString();
-        } else {
-          backTopCircle.classList.remove('show');
-        }
-      }
-      
-      // 显示/隐藏
-      if (scrollTop > 300) {
-        backTop.classList.add('show');
-      } else {
-        backTop.classList.remove('show');
-      }
-    };
-    
-    window.addEventListener('scroll', updateBackTop);
-    updateBackTop();
-  }
 </script>

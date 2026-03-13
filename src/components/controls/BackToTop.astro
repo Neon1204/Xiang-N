@@ -2,18 +2,24 @@
 import FloatingButton from "@/components/common/FloatingButton.astro";
 ---
 
-<!-- There can't be a filter on parent element, or it will break `fixed` -->
-<FloatingButton
-  id="back-to-top-btn"
-  icon="material-symbols:keyboard-arrow-up-rounded"
-  ariaLabel="Back to Top"
-  onclick="backToTop()"
-  class="hide" 
-/>
+<!-- 环形进度 Back to Top -->
+<div id="back-to-top-btn" class="back-to-top-progress">
+  <svg viewBox="0 0 24 24">
+    <defs>
+      <linearGradient id="backToTopGradient" x1="0%" x2="100%" y1="0%" y2="0%">
+        <stop offset="0%" style="stop-color:#ff9671;stop-opacity:1"></stop>
+        <stop offset="100%" style="stop-color:#ff6b6b;stop-opacity:1"></stop>
+      </linearGradient>
+    </defs>
+    <circle cx="12" cy="12" fill="none" r="10" stroke="url(#backToTopGradient)" stroke-linecap="round" stroke-width="2" transform="rotate(-90, 12, 12)"></circle>
+  </svg>
+  <svg viewBox="0 0 24 24" class="icon">
+    <path d="m6 15l6-6l6 6" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"></path>
+  </svg>
+</div>
 
 <script is:raw is:inline>
   function backToTop() {
-    // 直接使用原生滚动，避免OverlayScrollbars冲突
     window.scroll({ top: 0, behavior: "smooth" });
   }
 
@@ -22,19 +28,26 @@ import FloatingButton from "@/components/common/FloatingButton.astro";
     window.BackToTopManager = class BackToTopManager {
       constructor() {
         this.button = document.getElementById("back-to-top-btn");
+        this.circle = this.button?.querySelector('circle');
         this.init();
       }
 
       init() {
-        if (!this.button) return; // wrapper checks removed as it is now flexible
-
+        if (!this.button) return;
         this.setupScrollListener();
       }
 
       setupScrollListener() {
         const updateVisibility = () => {
-          const scrollTop =
-            window.pageYOffset || document.documentElement.scrollTop;
+          const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
+          const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+          const progress = docHeight > 0 ? (scrollTop / docHeight) : 0;
+          const strokeDashoffset = 62.8319 * (1 - progress);
+
+          // 更新环形进度
+          if (this.circle) {
+            this.circle.style.strokeDashoffset = strokeDashoffset.toString();
+          }
 
           // 当滚动超过200px时显示按钮
           if (scrollTop > 200) {
@@ -48,13 +61,11 @@ import FloatingButton from "@/components/common/FloatingButton.astro";
       }
     };
   }
-  // ... existing initialization logic ...
-  // 页面加载完成后初始化
+
   document.addEventListener("DOMContentLoaded", () => {
     new BackToTopManager();
   });
 
-  // 如果页面已经加载完成，立即初始化
   if (document.readyState === "loading") {
     document.addEventListener("DOMContentLoaded", () => {
       new BackToTopManager();
@@ -63,3 +74,39 @@ import FloatingButton from "@/components/common/FloatingButton.astro";
     new BackToTopManager();
   }
 </script>
+
+<style>
+  .back-to-top-progress {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    width: 44px;
+    height: 44px;
+    cursor: pointer;
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.3s, visibility 0.3s;
+  }
+  .back-to-top-progress:not(.hide) {
+    opacity: 1;
+    visibility: visible;
+  }
+  .back-to-top-progress svg:first-child {
+    position: absolute;
+    width: 44px;
+    height: 44px;
+  }
+  .back-to-top-progress .icon {
+    width: 24px;
+    height: 24px;
+  }
+  .back-to-top-progress circle {
+    stroke-dasharray: 62.8319;
+    stroke-dashoffset: 62.8319;
+    transition: stroke-dashoffset 0.3s ease;
+  }
+</style>
